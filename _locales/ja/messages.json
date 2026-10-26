@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "YouTube の Cookie をエクスポートする拡張機能"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "YouTube の Cookie を Netscape 形式のファイルにエクスポートします。"
+  },
+  "extensionInterval": {
+    "message": "エクスポート間隔（分）"
+  },
+  "exportStart": {
+    "message": "自動エクスポートを開始"
+  },
+  "exportStop": {
+    "message": "自動エクスポートを停止"
+  },
+  "exportNow": {
+    "message": "今すぐエクスポート"
+  },
+  "automationActive": {
+    "message": "自動エクスポートは有効です。"
+  },
+  "automationStopped": {
+    "message": "自動エクスポートは停止しています。"
+  },
+  "intervalStatus": {
+    "message": "エクスポート間隔：$interval$ 分",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "最終エクスポート：$date$（$count$ 件の Cookie）",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "エクスポート履歴はありません。"
+  },
+  "errorStatus": {
+    "message": "エラー：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "有効なエクスポート間隔を入力してください。"
+  },
+  "intervalSaved": {
+    "message": "エクスポート間隔を保存しました。"
+  },
+  "exportInProgress": {
+    "message": "エクスポート中です。しばらくお待ちください。"
+  },
+  "exportCompleted": {
+    "message": "エクスポートが完了しました。Cookie 数：$count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "エクスポートに失敗しました：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "初期化エラー：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "不明なエラーが発生しました。"
+  }
+}

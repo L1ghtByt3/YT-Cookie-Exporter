@@ -1,0 +1,117 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Exporte les cookies YouTube au format Netscape"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "Enregistre un fichier texte au format Netscape dans Téléchargements/YT-Cookie-Exporter"
+  },
+  "extensionInterval": {
+    "message": "Intervalle d’exportation (minutes ; de 1 à 10080)"
+  },
+  "exportStart": {
+    "message": "Démarrer / Appliquer"
+  },
+  "exportStop": {
+    "message": "Arrêter"
+  },
+  "exportNow": {
+    "message": "Exporter maintenant"
+  },
+  "automationActive": {
+    "message": "Automatisation : active"
+  },
+  "automationStopped": {
+    "message": "Automatisation : arrêtée"
+  },
+  "intervalStatus": {
+    "message": "Intervalle : $interval$ minute(s)",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Dernier export : $date$ ($count$ cookie(s))",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Aucun export effectué pour le moment"
+  },
+  "errorStatus": {
+    "message": "Dernière erreur : $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Saisissez un nombre entier compris entre 1 et 10080 minutes."
+  },
+  "intervalSaved": {
+    "message": "Intervalle enregistré. Le premier export sera effectué après l’intervalle sélectionné."
+  },
+  "exportInProgress": {
+    "message": "Exportation des cookies en cours…"
+  },
+  "exportCompleted": {
+    "message": "Export terminé : $count$ cookie(s).",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Échec de l’exportation : $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Une erreur est survenue : $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Erreur inconnue"
+  },
+  "exportAlreadyInProgress": {
+    "message": "Une exportation est déjà en cours."
+  },
+  "automationStartFailed": {
+    "message": "Impossible de démarrer l’automatisation : $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "automationStopFailed": {
+    "message": "Impossible d’arrêter l’automatisation : $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Exportera YouTube-cookies till en fil i Netscape-format."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "Exportera YouTube-cookies automatiskt eller manuellt."
+  },
+  "extensionInterval": {
+    "message": "Exportintervall (minuter)"
+  },
+  "exportStart": {
+    "message": "Starta automatisk export"
+  },
+  "exportStop": {
+    "message": "Stoppa automatisk export"
+  },
+  "exportNow": {
+    "message": "Exportera nu"
+  },
+  "automationActive": {
+    "message": "Automatisk export är aktiverad."
+  },
+  "automationStopped": {
+    "message": "Automatisk export är stoppad."
+  },
+  "intervalStatus": {
+    "message": "Exportintervall: $interval$ minut(er).",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Senaste export: $date$ — $count$ cookies.",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Ingen export har genomförts ännu."
+  },
+  "errorStatus": {
+    "message": "Fel: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Ange ett giltigt intervall i minuter."
+  },
+  "intervalSaved": {
+    "message": "Exportintervallet har sparats."
+  },
+  "exportInProgress": {
+    "message": "Export pågår…"
+  },
+  "exportCompleted": {
+    "message": "Exporten är klar. $count$ cookies exporterades.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Exporten misslyckades: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Ett fel uppstod vid initieringen: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Ett okänt fel inträffade."
+  }
+}

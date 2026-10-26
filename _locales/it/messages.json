@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter",
+    "description": "Nome dell'estensione"
+  },
+  "extensionPresentation": {
+    "message": "Esporta automaticamente i cookie di YouTube in un file di cookie in formato Netscape.",
+    "description": "Descrizione dell'estensione"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter",
+    "description": "Titolo del pulsante del browser"
+  },
+  "extensionText": {
+    "message": "Esportazione dei cookie di YouTube",
+    "description": "Intestazione della finestra popup"
+  },
+  "extensionInterval": {
+    "message": "Intervallo di esportazione (minuti)",
+    "description": "Etichetta dell'intervallo di esportazione"
+  },
+  "exportStart": {
+    "message": "Avvia l'esportazione automatica",
+    "description": "Pulsante per avviare l'esportazione automatica"
+  },
+  "exportStop": {
+    "message": "Interrompi l'esportazione automatica",
+    "description": "Pulsante per interrompere l'esportazione automatica"
+  },
+  "exportNow": {
+    "message": "Esporta ora",
+    "description": "Pulsante per avviare un'esportazione immediata"
+  },
+  "automationActive": {
+    "message": "L'esportazione automatica è attiva.",
+    "description": "Stato dell'esportazione automatica quando è attiva"
+  },
+  "automationStopped": {
+    "message": "L'esportazione automatica è stata interrotta.",
+    "description": "Stato dell'esportazione automatica quando è interrotta"
+  },
+  "intervalStatus": {
+    "message": "Intervallo di esportazione: $interval$ minuti",
+    "description": "Mostra l'intervallo di esportazione corrente",
+    "placeholders": {
+      "interval": {
+        "content": "$1",
+        "description": "Intervallo di esportazione in minuti"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Ultima esportazione: $date$ — $count$ cookie",
+    "description": "Mostra la data e il numero di cookie dell'ultima esportazione",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "description": "Data dell'ultima esportazione"
+      },
+      "count": {
+        "content": "$2",
+        "description": "Numero di cookie esportati"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Non è stata ancora effettuata alcuna esportazione.",
+    "description": "Messaggio mostrato quando non è stata ancora effettuata un'esportazione"
+  },
+  "errorStatus": {
+    "message": "Errore: $error$",
+    "description": "Mostra un messaggio di errore",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Dettagli dell'errore"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Inserisci un intervallo valido compreso tra 1 e 10080 minuti.",
+    "description": "Messaggio di errore per un intervallo di esportazione non valido"
+  },
+  "intervalSaved": {
+    "message": "Intervallo di esportazione salvato.",
+    "description": "Conferma del salvataggio dell'intervallo"
+  },
+  "exportInProgress": {
+    "message": "L'esportazione è già in corso.",
+    "description": "Messaggio mostrato quando è già in corso un'esportazione"
+  },
+  "exportCompleted": {
+    "message": "Esportazione completata: $count$ cookie esportati.",
+    "description": "Conferma del completamento dell'esportazione",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "description": "Numero di cookie esportati"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Esportazione non riuscita: $error$",
+    "description": "Messaggio mostrato quando un'esportazione non riesce",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Dettagli dell'errore"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Errore di inizializzazione: $error$",
+    "description": "Messaggio mostrato quando si verifica un errore di inizializzazione",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Dettagli dell'errore"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Si è verificato un errore sconosciuto.",
+    "description": "Messaggio generico per gli errori sconosciuti"
+  }
+}

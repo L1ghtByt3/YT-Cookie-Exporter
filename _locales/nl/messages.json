@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Exporteert YouTube-cookies naar een Netscape-cookiebestand voor gebruik met compatibele tools."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "YouTube-cookies exporteren"
+  },
+  "extensionInterval": {
+    "message": "Exportinterval (minuten)"
+  },
+  "exportStart": {
+    "message": "Automatisch exporteren starten"
+  },
+  "exportStop": {
+    "message": "Automatisch exporteren stoppen"
+  },
+  "exportNow": {
+    "message": "Nu exporteren"
+  },
+  "automationActive": {
+    "message": "Automatisch exporteren is actief."
+  },
+  "automationStopped": {
+    "message": "Automatisch exporteren is gestopt."
+  },
+  "intervalStatus": {
+    "message": "Exportinterval: $interval$ minuten",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Laatste export: $date$ — $count$ cookies",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Er is nog geen export uitgevoerd."
+  },
+  "errorStatus": {
+    "message": "Fout: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Voer een geldig exportinterval in."
+  },
+  "intervalSaved": {
+    "message": "Exportinterval opgeslagen."
+  },
+  "exportInProgress": {
+    "message": "Exporteren..."
+  },
+  "exportCompleted": {
+    "message": "Export voltooid: $count$ cookies geëxporteerd.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Export mislukt: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Initialisatiefout: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Er is een onbekende fout opgetreden."
+  }
+}

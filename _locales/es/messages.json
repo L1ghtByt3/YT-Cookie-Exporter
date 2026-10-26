@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter",
+    "description": "Nombre de la extensión"
+  },
+  "extensionPresentation": {
+    "message": "Exporta automáticamente las cookies de YouTube a un archivo de cookies en formato Netscape.",
+    "description": "Descripción de la extensión"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter",
+    "description": "Título del botón del navegador"
+  },
+  "extensionText": {
+    "message": "Exportación de cookies de YouTube",
+    "description": "Encabezado de la ventana emergente"
+  },
+  "extensionInterval": {
+    "message": "Intervalo de exportación (minutos)",
+    "description": "Etiqueta del intervalo de exportación"
+  },
+  "exportStart": {
+    "message": "Iniciar la exportación automática",
+    "description": "Botón para iniciar la exportación automática"
+  },
+  "exportStop": {
+    "message": "Detener la exportación automática",
+    "description": "Botón para detener la exportación automática"
+  },
+  "exportNow": {
+    "message": "Exportar ahora",
+    "description": "Botón para iniciar una exportación inmediata"
+  },
+  "automationActive": {
+    "message": "La exportación automática está activada.",
+    "description": "Estado de la exportación automática cuando está activada"
+  },
+  "automationStopped": {
+    "message": "La exportación automática está detenida.",
+    "description": "Estado de la exportación automática cuando está detenida"
+  },
+  "intervalStatus": {
+    "message": "Intervalo de exportación: $interval$ minutos",
+    "description": "Muestra el intervalo de exportación actual",
+    "placeholders": {
+      "interval": {
+        "content": "$1",
+        "description": "Intervalo de exportación en minutos"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Última exportación: $date$ — $count$ cookies",
+    "description": "Muestra la fecha y el número de cookies de la última exportación",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "description": "Fecha de la última exportación"
+      },
+      "count": {
+        "content": "$2",
+        "description": "Número de cookies exportadas"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Todavía no se ha realizado ninguna exportación.",
+    "description": "Mensaje que aparece cuando aún no se ha realizado ninguna exportación"
+  },
+  "errorStatus": {
+    "message": "Error: $error$",
+    "description": "Muestra un mensaje de error",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Detalles del error"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Introduce un intervalo válido entre 1 y 10080 minutos.",
+    "description": "Mensaje de error para un intervalo de exportación no válido"
+  },
+  "intervalSaved": {
+    "message": "Intervalo de exportación guardado.",
+    "description": "Confirmación de que se ha guardado el intervalo"
+  },
+  "exportInProgress": {
+    "message": "La exportación ya está en curso.",
+    "description": "Mensaje que aparece cuando ya hay una exportación en curso"
+  },
+  "exportCompleted": {
+    "message": "Exportación completada: $count$ cookies exportadas.",
+    "description": "Confirmación de una exportación completada correctamente",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "description": "Número de cookies exportadas"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Error al exportar: $error$",
+    "description": "Mensaje que aparece cuando falla una exportación",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Detalles del error"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Error de inicialización: $error$",
+    "description": "Mensaje que aparece cuando se produce un error de inicialización",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Detalles del error"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Se ha producido un error desconocido.",
+    "description": "Mensaje general para errores desconocidos"
+  }
+}

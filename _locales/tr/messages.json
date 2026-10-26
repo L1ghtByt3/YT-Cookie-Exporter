@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "YouTube çerezlerini dışa aktarın ve otomatik dışa aktarmayı yönetin."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "YouTube çerezlerini dışa aktarın"
+  },
+  "extensionInterval": {
+    "message": "Dışa aktarma aralığı (dakika)"
+  },
+  "exportStart": {
+    "message": "Otomatik dışa aktarmayı başlat"
+  },
+  "exportStop": {
+    "message": "Otomatik dışa aktarmayı durdur"
+  },
+  "exportNow": {
+    "message": "Şimdi dışa aktar"
+  },
+  "automationActive": {
+    "message": "Otomatik dışa aktarma etkin."
+  },
+  "automationStopped": {
+    "message": "Otomatik dışa aktarma durduruldu."
+  },
+  "intervalStatus": {
+    "message": "Dışa aktarma aralığı: $interval$ dakika",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Son dışa aktarma: $date$ — $count$ çerez",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Henüz dışa aktarma yapılmadı."
+  },
+  "errorStatus": {
+    "message": "Hata: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Geçersiz aralık. Lütfen geçerli bir dakika değeri girin."
+  },
+  "intervalSaved": {
+    "message": "Dışa aktarma aralığı kaydedildi."
+  },
+  "exportInProgress": {
+    "message": "Çerezler dışa aktarılıyor…"
+  },
+  "exportCompleted": {
+    "message": "$count$ çerez başarıyla dışa aktarıldı.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Dışa aktarma başarısız: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Başlatma hatası: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Bilinmeyen bir hata oluştu."
+  }
+}

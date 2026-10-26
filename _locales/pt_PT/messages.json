@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Exporta os cookies do YouTube para um ficheiro de texto no formato Netscape."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "Exportador de cookies do YouTube"
+  },
+  "extensionInterval": {
+    "message": "Intervalo de exportação (minutos)"
+  },
+  "exportStart": {
+    "message": "Iniciar exportação automática"
+  },
+  "exportStop": {
+    "message": "Parar exportação automática"
+  },
+  "exportNow": {
+    "message": "Exportar agora"
+  },
+  "automationActive": {
+    "message": "Exportação automática ativa"
+  },
+  "automationStopped": {
+    "message": "Exportação automática parada"
+  },
+  "intervalStatus": {
+    "message": "Intervalo: $interval$ minuto(s)",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Última exportação: $date$ ($count$ cookies)",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Ainda não foi efetuada nenhuma exportação."
+  },
+  "errorStatus": {
+    "message": "Erro: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Introduza um intervalo válido."
+  },
+  "intervalSaved": {
+    "message": "Intervalo de exportação guardado."
+  },
+  "exportInProgress": {
+    "message": "Exportação em curso…"
+  },
+  "exportCompleted": {
+    "message": "Exportação concluída: $count$ cookies exportados.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Falha na exportação: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Erro de inicialização: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Ocorreu um erro desconhecido."
+  }
+}

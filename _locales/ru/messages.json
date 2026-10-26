@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "Экспортёр файлов cookie YouTube"
+  },
+  "extensionPresentation": {
+    "message": "Автоматический экспорт файлов cookie YouTube в файл Netscape для использования в других приложениях."
+  },
+  "browserActionTitle": {
+    "message": "Экспортёр файлов cookie YouTube"
+  },
+  "extensionText": {
+    "message": "Экспортируйте файлы cookie YouTube вручную или автоматически через заданные интервалы."
+  },
+  "extensionInterval": {
+    "message": "Интервал экспорта (в минутах)"
+  },
+  "exportStart": {
+    "message": "Запустить автоматический экспорт"
+  },
+  "exportStop": {
+    "message": "Остановить автоматический экспорт"
+  },
+  "exportNow": {
+    "message": "Экспортировать сейчас"
+  },
+  "automationActive": {
+    "message": "Автоматический экспорт включён."
+  },
+  "automationStopped": {
+    "message": "Автоматический экспорт остановлен."
+  },
+  "intervalStatus": {
+    "message": "Интервал экспорта: $interval$ мин.",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Последний экспорт: $date$ (файлов cookie: $count$).",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Экспорт ещё не выполнялся."
+  },
+  "errorStatus": {
+    "message": "Ошибка: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Укажите интервал от 1 до 10 080 минут."
+  },
+  "intervalSaved": {
+    "message": "Интервал экспорта сохранён."
+  },
+  "exportInProgress": {
+    "message": "Выполняется экспорт файлов cookie…"
+  },
+  "exportCompleted": {
+    "message": "Экспорт завершён. Экспортировано файлов cookie: $count$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Не удалось экспортировать файлы cookie: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Ошибка инициализации расширения: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Произошла неизвестная ошибка."
+  }
+}

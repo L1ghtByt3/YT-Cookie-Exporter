@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "YouTube कुकीज़ को निर्यात करने और स्वचालित रूप से सहेजने का एक्सटेंशन।"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "YouTube कुकीज़ निर्यात करें"
+  },
+  "extensionInterval": {
+    "message": "निर्यात अंतराल (मिनट)"
+  },
+  "exportStart": {
+    "message": "स्वचालित निर्यात शुरू करें"
+  },
+  "exportStop": {
+    "message": "स्वचालित निर्यात रोकें"
+  },
+  "exportNow": {
+    "message": "अभी निर्यात करें"
+  },
+  "automationActive": {
+    "message": "स्वचालित निर्यात सक्रिय है।"
+  },
+  "automationStopped": {
+    "message": "स्वचालित निर्यात बंद है।"
+  },
+  "intervalStatus": {
+    "message": "निर्यात अंतराल: $interval$ मिनट",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "अंतिम निर्यात: $date$ — $count$ कुकीज़",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "अभी तक कोई निर्यात नहीं हुआ है।"
+  },
+  "errorStatus": {
+    "message": "त्रुटि: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "कृपया एक मान्य निर्यात अंतराल दर्ज करें।"
+  },
+  "intervalSaved": {
+    "message": "निर्यात अंतराल सहेज लिया गया है।"
+  },
+  "exportInProgress": {
+    "message": "निर्यात जारी है..."
+  },
+  "exportCompleted": {
+    "message": "निर्यात पूरा हुआ। $count$ कुकीज़ सहेजी गईं।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "निर्यात विफल हुआ: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "एक्सटेंशन शुरू करने में त्रुटि: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "एक अज्ञात त्रुटि हुई।"
+  }
+}

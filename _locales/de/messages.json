@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter",
+    "description": "Name der Erweiterung"
+  },
+  "extensionPresentation": {
+    "message": "Exportiert YouTube-Cookies automatisch in eine Netscape-Cookie-Datei.",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter",
+    "description": "Titel der Browser-Schaltfläche"
+  },
+  "extensionText": {
+    "message": "YouTube-Cookie-Export",
+    "description": "Überschrift des Popup-Fensters"
+  },
+  "extensionInterval": {
+    "message": "Exportintervall (Minuten)",
+    "description": "Beschriftung für das Exportintervall"
+  },
+  "exportStart": {
+    "message": "Automatischen Export starten",
+    "description": "Schaltfläche zum Starten des automatischen Exports"
+  },
+  "exportStop": {
+    "message": "Automatischen Export stoppen",
+    "description": "Schaltfläche zum Stoppen des automatischen Exports"
+  },
+  "exportNow": {
+    "message": "Jetzt exportieren",
+    "description": "Schaltfläche zum sofortigen Export"
+  },
+  "automationActive": {
+    "message": "Automatischer Export ist aktiv.",
+    "description": "Statusmeldung bei aktivem automatischem Export"
+  },
+  "automationStopped": {
+    "message": "Automatischer Export ist gestoppt.",
+    "description": "Statusmeldung bei gestopptem automatischem Export"
+  },
+  "intervalStatus": {
+    "message": "Exportintervall: $interval$ Minuten",
+    "description": "Zeigt das aktuelle Exportintervall an",
+    "placeholders": {
+      "interval": {
+        "content": "$1",
+        "description": "Exportintervall in Minuten"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Letzter Export: $date$ — $count$ Cookies",
+    "description": "Zeigt Datum und Anzahl der Cookies des letzten Exports an",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "description": "Datum des letzten Exports"
+      },
+      "count": {
+        "content": "$2",
+        "description": "Anzahl der exportierten Cookies"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Bisher wurde kein Export durchgeführt.",
+    "description": "Meldung, wenn noch kein Export stattgefunden hat"
+  },
+  "errorStatus": {
+    "message": "Fehler: $error$",
+    "description": "Zeigt eine Fehlermeldung an",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Fehlerdetails"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Bitte gib ein gültiges Intervall zwischen 1 und 10080 Minuten ein.",
+    "description": "Fehlermeldung bei ungültigem Exportintervall"
+  },
+  "intervalSaved": {
+    "message": "Exportintervall gespeichert.",
+    "description": "Bestätigung, dass das Exportintervall gespeichert wurde"
+  },
+  "exportInProgress": {
+    "message": "Export läuft bereits.",
+    "description": "Meldung, wenn ein Export bereits ausgeführt wird"
+  },
+  "exportCompleted": {
+    "message": "Export abgeschlossen: $count$ Cookies exportiert.",
+    "description": "Bestätigung eines erfolgreichen Exports",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "description": "Anzahl der exportierten Cookies"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Export fehlgeschlagen: $error$",
+    "description": "Meldung bei fehlgeschlagenem Export",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Fehlerdetails"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Initialisierungsfehler: $error$",
+    "description": "Meldung bei einem Initialisierungsfehler",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "description": "Fehlerdetails"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Ein unbekannter Fehler ist aufgetreten.",
+    "description": "Allgemeine Meldung für unbekannte Fehler"
+  }
+}

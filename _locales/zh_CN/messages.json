@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YouTube Cookie 导出器"
+  },
+  "extensionPresentation": {
+    "message": "自动导出 YouTube Cookie，支持定时导出。"
+  },
+  "browserActionTitle": {
+    "message": "YouTube Cookie 导出器"
+  },
+  "extensionText": {
+    "message": "YouTube Cookie 导出器"
+  },
+  "extensionInterval": {
+    "message": "导出间隔（分钟）"
+  },
+  "exportStart": {
+    "message": "启动自动导出"
+  },
+  "exportStop": {
+    "message": "停止自动导出"
+  },
+  "exportNow": {
+    "message": "立即导出"
+  },
+  "automationActive": {
+    "message": "自动导出已启用"
+  },
+  "automationStopped": {
+    "message": "自动导出已停止"
+  },
+  "intervalStatus": {
+    "message": "自动导出间隔：$interval$ 分钟",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "上次导出：$date$（共 $count$ 个 Cookie）",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "尚未导出 Cookie"
+  },
+  "errorStatus": {
+    "message": "错误：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "请输入有效的导出间隔。"
+  },
+  "intervalSaved": {
+    "message": "导出间隔已保存。"
+  },
+  "exportInProgress": {
+    "message": "正在导出 Cookie，请稍候……"
+  },
+  "exportCompleted": {
+    "message": "导出成功，共导出 $count$ 个 Cookie。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "导出失败：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "初始化失败：$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "发生未知错误。"
+  }
+}

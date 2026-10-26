@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "مُصدِّر ملفات تعريف الارتباط ليوتيوب"
+  },
+  "extensionPresentation": {
+    "message": "تصدير ملفات تعريف الارتباط الخاصة بيوتيوب تلقائيًا أو يدويًا."
+  },
+  "browserActionTitle": {
+    "message": "مُصدِّر ملفات تعريف الارتباط ليوتيوب"
+  },
+  "extensionText": {
+    "message": "تصدير ملفات تعريف الارتباط الخاصة بيوتيوب"
+  },
+  "extensionInterval": {
+    "message": "الفاصل الزمني للتصدير (بالدقائق)"
+  },
+  "exportStart": {
+    "message": "بدء التصدير التلقائي"
+  },
+  "exportStop": {
+    "message": "إيقاف التصدير التلقائي"
+  },
+  "exportNow": {
+    "message": "تصدير الآن"
+  },
+  "automationActive": {
+    "message": "التصدير التلقائي مُفعّل"
+  },
+  "automationStopped": {
+    "message": "التصدير التلقائي متوقف"
+  },
+  "intervalStatus": {
+    "message": "الفاصل الزمني: $interval$ دقيقة",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "آخر تصدير: $date$ — عدد ملفات تعريف الارتباط: $count$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "لم يتم إجراء أي تصدير بعد."
+  },
+  "errorStatus": {
+    "message": "خطأ: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "يرجى إدخال فاصل زمني صالح."
+  },
+  "intervalSaved": {
+    "message": "تم حفظ الفاصل الزمني."
+  },
+  "exportInProgress": {
+    "message": "جارٍ تصدير ملفات تعريف الارتباط..."
+  },
+  "exportCompleted": {
+    "message": "اكتمل التصدير. عدد ملفات تعريف الارتباط: $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "فشل التصدير: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "خطأ في التهيئة: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "حدث خطأ غير معروف."
+  }
+}

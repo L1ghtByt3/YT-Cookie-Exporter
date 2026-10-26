@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Eksporter YouTube-cookies til en Netscape-cookiefil, og automatiser eksporten med et interval."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "Eksporter YouTube-cookies"
+  },
+  "extensionInterval": {
+    "message": "Interval (minutter)"
+  },
+  "exportStart": {
+    "message": "Start automatisk eksport"
+  },
+  "exportStop": {
+    "message": "Stop automatisk eksport"
+  },
+  "exportNow": {
+    "message": "Eksporter nu"
+  },
+  "automationActive": {
+    "message": "Automatisk eksport er aktiveret."
+  },
+  "automationStopped": {
+    "message": "Automatisk eksport er stoppet."
+  },
+  "intervalStatus": {
+    "message": "Eksportinterval: $interval$ minut(ter).",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Seneste eksport: $date$ ($count$ cookies).",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Der er endnu ikke eksporteret nogen cookies."
+  },
+  "errorStatus": {
+    "message": "Fejl: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Ugyldigt interval. Angiv et antal minutter mellem 1 og 10080."
+  },
+  "intervalSaved": {
+    "message": "Eksportintervallet er gemt."
+  },
+  "exportInProgress": {
+    "message": "Eksport af cookies er i gang..."
+  },
+  "exportCompleted": {
+    "message": "Eksport fuldført. $count$ cookies blev eksporteret.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Eksport mislykkedes: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Initialiseringsfejl: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Der opstod en ukendt fejl."
+  }
+}

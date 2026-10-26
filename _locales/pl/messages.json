@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionPresentation": {
+    "message": "Eksportuj pliki cookie YouTube do pliku tekstowego w formacie Netscape, aby używać ich w narzędziach zewnętrznych."
+  },
+  "browserActionTitle": {
+    "message": "YT Cookie Exporter"
+  },
+  "extensionText": {
+    "message": "Eksportuj pliki cookie YouTube"
+  },
+  "extensionInterval": {
+    "message": "Interwał eksportu (minuty)"
+  },
+  "exportStart": {
+    "message": "Rozpocznij automatyczny eksport"
+  },
+  "exportStop": {
+    "message": "Zatrzymaj automatyczny eksport"
+  },
+  "exportNow": {
+    "message": "Eksportuj teraz"
+  },
+  "automationActive": {
+    "message": "Automatyczny eksport jest aktywny."
+  },
+  "automationStopped": {
+    "message": "Automatyczny eksport został zatrzymany."
+  },
+  "intervalStatus": {
+    "message": "Interwał eksportu: $interval$ min",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Ostatni eksport: $date$ — wyeksportowano plików cookie: $count$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Nie wykonano jeszcze eksportu."
+  },
+  "errorStatus": {
+    "message": "Błąd: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Nieprawidłowy interwał. Wprowadź wartość od 1 do 10080 minut."
+  },
+  "intervalSaved": {
+    "message": "Interwał eksportu został zapisany."
+  },
+  "exportInProgress": {
+    "message": "Eksport plików cookie jest w toku..."
+  },
+  "exportCompleted": {
+    "message": "Eksport zakończony. Wyeksportowano plików cookie: $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Eksport nie powiódł się: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Błąd inicjalizacji: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Wystąpił nieznany błąd."
+  }
+}

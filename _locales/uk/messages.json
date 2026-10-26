@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "Експортер файлів cookie YouTube"
+  },
+  "extensionPresentation": {
+    "message": "Автоматичне та ручне експортування файлів cookie YouTube у форматі Netscape."
+  },
+  "browserActionTitle": {
+    "message": "Експортер файлів cookie YouTube"
+  },
+  "extensionText": {
+    "message": "Керування експортом файлів cookie YouTube"
+  },
+  "extensionInterval": {
+    "message": "Інтервал експорту (хвилини)"
+  },
+  "exportStart": {
+    "message": "Увімкнути автоматичний експорт"
+  },
+  "exportStop": {
+    "message": "Зупинити автоматичний експорт"
+  },
+  "exportNow": {
+    "message": "Експортувати зараз"
+  },
+  "automationActive": {
+    "message": "Автоматичний експорт увімкнено"
+  },
+  "automationStopped": {
+    "message": "Автоматичний експорт зупинено"
+  },
+  "intervalStatus": {
+    "message": "Інтервал: $interval$ хв",
+    "placeholders": {
+      "interval": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastExportStatus": {
+    "message": "Останній експорт: $date$ (файлів cookie: $count$)",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      },
+      "count": {
+        "content": "$2"
+      }
+    }
+  },
+  "noExport": {
+    "message": "Експортів ще не було"
+  },
+  "errorStatus": {
+    "message": "Помилка: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Введіть коректний інтервал у хвилинах."
+  },
+  "intervalSaved": {
+    "message": "Інтервал експорту збережено."
+  },
+  "exportInProgress": {
+    "message": "Експорт файлів cookie триває…"
+  },
+  "exportCompleted": {
+    "message": "Експорт завершено. Кількість файлів cookie: $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Не вдалося експортувати файли cookie: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "initializationError": {
+    "message": "Помилка ініціалізації: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "Сталася невідома помилка."
+  }
+}
